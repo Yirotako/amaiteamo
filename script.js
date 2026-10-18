@@ -9,7 +9,7 @@ const datos = {
 
   // Pon aquí el archivo MP3 que tú quieras.
   // Ejemplo: "musica/la-mirada.mp3"
-  cancion: "musica/la-mirada.mp3",
+  cancion: "Bhavi, LOUTA - LA MIRADA (Official Audio).mp3",
 
   tituloCancion: "La Mirada — Bhavi",
 
