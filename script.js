@@ -14,14 +14,19 @@ const datos = {
   tituloCancion: "Bhavi, LOUTA - LA MIRADA (Official Audio).mp3",
 
   // 💌 ESCRIBE AQUÍ TU MENSAJE FINAL
-  mensajeFinal: `Todavía falta mucho por escribir de nuestra historia.
+  mensajeFinal: `ojala estos 6 meses sean nada de tiempo a comparacion del tiempo que duremos.
 
-Y quizá eso sea de las cosas más bonitas:
-que todavía nos quedan muchos días 10,
-muchas llamadas, muchas conversaciones
-y, algún día, el momento de conocernos.
+Disculpa mi mala ortografia y disculpame a mi por todas las veces que te e echo sentir
+mal nunca lo hago con mala intencion, es mas nunca lo hago con intension de hacerte
+sentir mal si no solo de hacerte enojar poquito pero por que me gusta cuando te enojas y desesperas jaj tqm
+ojala si ya pronto nos conozcamos para hacer mil cosas o aunque sean pocas hacerlas contigo perdona si la
+nota es corta o repetitiva pero nunca e sabido expresarme bien y menos contigo y no me lo tomes a mal no es
+por que no t ame al contrario es por que te amo demasiado y me tienes atontado tanto como para no saber como expresarme 
+contigo y no poder explicarte lo demasiado que te amo se que me habias dicho que querias una carta pero mi letra es super mala
+y pense que esto podria llegarte a gustar talvez no igual que una carta pero te puede llegar a gustar aparte quien 
+mas te va a hacer una nota asi mi vida jaj t amo boba 
 
-Te quiero muchísimo, Amai. ♡
+Te quiero y amo muchisimo mi Amai de mi vida ♡
 
 — Yair`
 };
