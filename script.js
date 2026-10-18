@@ -11,7 +11,7 @@ const datos = {
   // Ejemplo: "musica/la-mirada.mp3"
   cancion: "Bhavi, LOUTA - LA MIRADA (Official Audio).mp3",
 
-  tituloCancion: "La Mirada — Bhavi",
+  tituloCancion: "Bhavi, LOUTA - LA MIRADA (Official Audio).mp3",
 
   // 💌 ESCRIBE AQUÍ TU MENSAJE FINAL
   mensajeFinal: `Todavía falta mucho por escribir de nuestra historia.
