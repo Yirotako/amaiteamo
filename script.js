@@ -28,7 +28,7 @@ mas te va a hacer una nota asi mi vida jaj t amo boba
 
 Te quiero y amo muchisimo mi Amai de mi vida ♡
 
-— Yair`
+— tu yiyir`
 };
 // ============================================
 
