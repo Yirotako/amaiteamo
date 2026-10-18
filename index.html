@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#f8dce8">
+  <meta name="description" content="Una pequeña carta hecha por Yair para Amai.">
+  <title>Para Amai ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <span class="petal p1"></span><span class="petal p2"></span><span class="petal p3"></span>
+    <span class="petal p4"></span><span class="petal p5"></span><span class="petal p6"></span>
+  </div>
+
+  <audio id="music" loop preload="auto"></audio>
+
+  <button id="musicToggle" class="music-toggle hidden" aria-label="Pausar música" title="Música">
+    ♪
+  </button>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="eyebrow">UNA CARTA DIGITAL</div>
+      <p class="small-line">Hecha con cariño por Yair</p>
+      <h1>Para <em>Amai</em> ♡</h1>
+      <p class="hero-text">Hay cosas que a veces es más fácil escribir que decir...</p>
+      <button id="openLetter" class="primary-btn">Abrir mi carta <span>→</span></button>
+      <p class="hint">Al abrirla comenzará la música.</p>
+    </section>
+
+    <div id="letter" class="letter hidden">
+      <section class="section intro reveal">
+        <div class="section-number">01</div>
+        <p class="eyebrow">DONDE TODO COMENZÓ</p>
+        <h2>Antes de todo esto...</h2>
+        <p>
+          Nos conocimos en un grupo de compra y venta. Al principio solo éramos amigos,
+          dos personas hablando sin saber demasiado bien a dónde iba a llevarnos todo esto.
+        </p>
+        <p>
+          Y entonces pasó algo bonito: sin darnos cuenta, nuestras conversaciones empezaron
+          a importar un poquito más. Hasta que llegó el <strong>10 de abril de 2026</strong>,
+          la fecha que ahora guarda el comienzo de nosotros.
+        </p>
+      </section>
+
+      <section class="section counter-section reveal">
+        <div class="counter-card">
+          <p class="eyebrow">DESDE EL 10 DE ABRIL DE 2026</p>
+          <div id="counter" class="counter">0 días</div>
+          <p>Y todavía nos queda muchísimo por vivir.</p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-number">02</div>
+        <p class="eyebrow">PEQUEÑOS RECUERDOS</p>
+        <h2>Cosas que guardo conmigo</h2>
+        <div class="memory-grid">
+          <article class="memory-card">
+            <span>📖</span>
+            <h3>La primera llamada</h3>
+            <p>Cuando me leíste un cuento. Quizá fue algo sencillo, pero para mí se convirtió en uno de esos momentos que se quedan.</p>
+          </article>
+          <article class="memory-card">
+            <span>🥺</span>
+            <h3>Aquella vez que tomaste</h3>
+            <p>Y te pusiste sentimental. Un recuerdo pequeño, pero de esos que hacen que una persona se sienta todavía más cercana.</p>
+          </article>
+          <article class="memory-card">
+            <span>🌷</span>
+            <h3>Los días 10</h3>
+            <p>Porque ahora cada día 10 tiene un significado especial. Es nuestra pequeña fecha para recordar que empezamos esto.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section photos-section reveal">
+        <div class="section-number">03</div>
+        <p class="eyebrow">UN POQUITO DE TI</p>
+        <h2>Porque también quiero guardar tu sonrisa aquí</h2>
+        <p class="section-lead">Estas son fotos tuyas. Puedes reemplazar las imágenes de ejemplo por las que quieras.</p>
+        <div class="photo-grid">
+          <figure class="photo-card">
+            <div class="photo-placeholder"><span>♡</span><small>foto1.jpg</small></div>
+            <figcaption>Una de mis vistas favoritas.</figcaption>
+          </figure>
+          <figure class="photo-card tilted">
+            <div class="photo-placeholder"><span>♡</span><small>foto2.jpg</small></div>
+            <figcaption>Porque sí, tenía que estar aquí.</figcaption>
+          </figure>
+          <figure class="photo-card">
+            <div class="photo-placeholder"><span>♡</span><small>foto3.jpg</small></div>
+            <figcaption>Un pequeño pedacito de ti.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-number">04</div>
+        <p class="eyebrow">SIN NECESIDAD DE EXPLICARLO TODO</p>
+        <h2>Algunas cosas que amo de ti</h2>
+        <div class="love-list">
+          <button class="love-item"><span>01</span><strong>Tus lunares</strong><i>+</i></button>
+          <button class="love-item"><span>02</span><strong>Tu forma de ser</strong><i>+</i></button>
+          <button class="love-item"><span>03</span><strong>Lo buena gente que eres</strong><i>+</i></button>
+          <button class="love-item"><span>04</span><strong>Lo cariñosa que eres</strong><i>+</i></button>
+          <button class="love-item"><span>05</span><strong>Incluso cuando te enojas</strong><i>+</i></button>
+        </div>
+        <p class="tap-hint">Toca cada una ♡</p>
+      </section>
+
+      <section class="section letter-section reveal">
+        <div class="section-number">05</div>
+        <p class="eyebrow">AHORA SÍ</p>
+        <h2>Una carta para ti</h2>
+        <div class="paper">
+          <p>Amai,</p>
+          <p>
+            aquí puedes escribir tu carta. No tiene que ser perfecta. De hecho,
+            probablemente sea más bonita si simplemente escribes lo que de verdad
+            sientes, con tus propias palabras.
+          </p>
+          <p>
+            Puedes contarle qué significa para ti tenerla en tu vida, qué te gusta
+            de hablar con ella, qué esperas del día en que finalmente puedan
+            conocerse y cualquier cosa que normalmente te cueste decir.
+          </p>
+          <p>
+            <strong>Este texto es totalmente editable.</strong> Cuando quieras,
+            reemplaza estos párrafos por tu carta real.
+          </p>
+          <p class="signature">— Yair ♡</p>
+        </div>
+      </section>
+
+      <section class="section final-section reveal">
+        <div class="final-heart">♡</div>
+        <p class="eyebrow">Y UNA ÚLTIMA COSA</p>
+        <h2 id="finalTitle">Esto todavía no es el final.</h2>
+        <div class="final-message" id="finalMessage"></div>
+        <button class="back-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})">Volver al principio ↑</button>
+      </section>
+    </div>
+  </main>
+
+  <footer>Hecho especialmente para Amai · 10.04.2026</footer>
+  <script src="script.js"></script>
+</body>
+</html>
